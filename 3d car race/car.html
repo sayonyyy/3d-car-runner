@@ -210,18 +210,6 @@
                 bestScoreElement.textContent = `Best: ${bestScore}`;
             }
         }
-        
-        // ADDED: Sound Functions
-        function playCoinSound() {
-            coinSound.currentTime = 0; // Rewind to start
-            coinSound.play().catch(e => console.log('Coin sound play failed:', e));
-        }
-        
-        function playGameOverSound() {
-            gameoverSound.currentTime = 0; // Rewind to start
-            gameoverSound.play().catch(e => console.log('Game Over sound play failed:', e));
-        }
-
 
         function init() {
             // ADDED: Load best score at init
