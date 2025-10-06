@@ -289,7 +289,7 @@
             loader.setDRACOLoader(dracoLoader);
 
             loader.load(
-                '/3d-car-runner/assets/models/ferrari.glb',
+                './assets/models/ferrari.glb',
                 (gltf) => {
                     playerCar = gltf.scene;
                     playerCar.scale.set(0.8, 0.8, 0.8);
